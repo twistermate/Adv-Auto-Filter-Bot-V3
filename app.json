@@ -8,8 +8,8 @@
         "Mongo DB"
     ],
     "website": "https://github.com/AlbertEinsteinTG",
-    "repository": "https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2",
-    "success_url": "https://telegram.dog/CrazyBotsz",
+    "repository": "https://github.com/wafikhsalman/Adv-Auto-Filter-Bot-V2",
+    "success_url": "https://telegram.dog/MG_MEDIA",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org or @UseTGXBot",
