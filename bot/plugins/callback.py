@@ -1658,10 +1658,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('About 🚩', callback_data='about')
+            InlineKeyboardButton('𝑯𝑶𝑴𝑬 🏘', callback_data='start'),
+            InlineKeyboardButton('𝐀𝐁𝐎𝐔𝐓 📄', callback_data='about')
         ],[
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('𝑪𝑳𝑶𝑺𝑬 🔐', callback_data='close')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1676,8 +1676,8 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('𝑯𝑶𝑴𝑬 🏘', callback_data='start'),
+            InlineKeyboardButton('𝑪𝑳𝑶𝑺𝑬 🔐', callback_data='close')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
