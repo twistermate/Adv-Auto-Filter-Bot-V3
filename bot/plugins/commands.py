@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚠️ JOIN OUR CHANNEL ⚠️', url="https://t.me/joinchat/5UxSr0XIphVhYjc9"
+                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/joinchat/5UxSr0XIphVhYjc9"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚠️ JOIN OUR CHANNEL ⚠️', url="https://t.me/joinchat/5UxSr0XIphVhYjc9"
+                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/joinchat/5UxSr0XIphVhYjc9"
                                 )
                         ]
                     ]
@@ -95,7 +95,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚠️ JOIN OUR CHANNEL ⚠️', url="https://t.me/joinchat/5UxSr0XIphVhYjc9"
+                                    '⚠️ 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚠️', url="https://t.me/joinchat/5UxSr0XIphVhYjc9"
                                 )
                         ]
                     ]
