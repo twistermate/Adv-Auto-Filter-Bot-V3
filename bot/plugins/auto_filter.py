@@ -80,7 +80,7 @@ async def auto_filter(bot, update):
             elif file_size < (1024**3):
                 file_size = f"[{str(round(file_size/(1024**2), 2))} MiB] "
             elif file_size < (1024**4):
-                file_size = f"[{str(round(file_size/(1024**3), 2))} GiB] "
+                file_size = f"{str(round(file_size/(1024**3), 2))} GiB "
             
             
             file_size = "" if file_size == ("[0 B]") else file_size
