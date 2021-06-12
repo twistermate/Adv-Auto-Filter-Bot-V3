@@ -23,7 +23,7 @@ class Translation(object):
 
 <b>○ ғʀᴀᴍᴇᴡᴏʀᴋ</b> : ᴘʏʀᴏɢʀᴀᴍ
 
-<b>○ ᴄʀᴇᴀᴛᴏʀ</b> : <b><i><a href="https://t.me/Wafikh">ᴘʀᴏғᴇssᴏʀ</a></i></b>
+<b>○ ᴄʀᴇᴀᴛᴏʀ</b> : <b><i><a href="https://t.me/Wafikh">🄿🅁🄾🄵🄴🅂🅂🄾🅁</a></i></b>
 
 <b>○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ</b> : 🔐
 """
