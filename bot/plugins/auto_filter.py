@@ -76,11 +76,11 @@ async def auto_filter(bot, update):
             if file_size < 1024:
                 file_size = f"{file_size} B"
             elif file_size < (1024**2):
-                file_size = f"{str(round(file_size/1024, 2))} KiB "
+                file_size = f"{str(round(file_size/1024, 2))} KB "
             elif file_size < (1024**3):
-                file_size = f"{str(round(file_size/(1024**2), 2))} MiB "
+                file_size = f"{str(round(file_size/(1024**2), 2))} MB "
             elif file_size < (1024**4):
-                file_size = f"{str(round(file_size/(1024**2), 2))} MiB "
+                file_size = f"{str(round(file_size/(1024**3), 2))} GB "
             
             
             file_size = "" if file_size == ("[0 B]") else file_size
@@ -126,7 +126,7 @@ async def auto_filter(bot, update):
                 file_link = f"https://t.me/{bot_.username}?start={unique_id}"
             
             results.append([
-            InlineKeyboardButton(" 📂 [MG] " + file_names, url=file_link),
+            InlineKeyboardButton("📂 [MG] " + file_names, url=file_link),
             InlineKeyboardButton(f_size, url=file_link)
         ])
         
@@ -215,7 +215,7 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id=update.chat.id,
                 photo="https://telegra.ph/file/e36894e1df6429dac7006.jpg",
-                caption=f"<b>𝐆𝐫𝐨𝐮𝐩:- <b>@MGMOVIEGRAM</b> \n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- {query} \n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)} \n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲:- {update.from_user.first_name} \n\n𝗣𝗿𝗲𝘀𝘀 𝗧𝗵𝗲 𝗗𝗼𝘄𝗻 𝗕𝘂𝘁𝘁𝗼𝗻𝘀 𝗧𝗼 𝗔𝗰𝗰𝗲𝘀𝘀 𝗧𝗵𝗲 𝗙𝗶𝗹𝗲 \n\nപടം ലഭിക്കുന്നതിനായി താഴെ കാണുന്ന ബട്ടണുകളിൽ ക്ലിക്ക് ചെയ്യുക👇</b>",
+                caption=f"<b>𝐆𝐫𝐨𝐮𝐩:- <b>@MGMOVIEGRAM</b> \n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- {query} \n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)} \n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲:- {update.from_user.mention} \n\n𝗣𝗿𝗲𝘀𝘀 𝗧𝗵𝗲 𝗗𝗼𝘄𝗻 𝗕𝘂𝘁𝘁𝗼𝗻𝘀 𝗧𝗼 𝗔𝗰𝗰𝗲𝘀𝘀 𝗧𝗵𝗲 𝗙𝗶𝗹𝗲 \n\nപടം ലഭിക്കുന്നതിനായി താഴെ കാണുന്ന ബട്ടണുകളിൽ ക്ലിക്ക് ചെയ്യുക👇</b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
