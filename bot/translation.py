@@ -6,7 +6,7 @@ class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
 
-<b>I am from <b><i><a href="https://t.me/cinehut">SPACE boTz</a></i></b> Iam working In groups😜
+<b>I am from <b><i><a href="https://t.me/SPACE_BOtZ">SPACE boTz</a></i></b> Iam working In groups😜
  
 You Can't Use Me, Don't Waste Your Time</b>
 
